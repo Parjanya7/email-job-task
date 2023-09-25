@@ -1,2 +1,2 @@
-# api-servie `fena-mail-sender` 
-Recieve messages from frontend to trigger email sending process
+# api-gateway
+Handles flow from and to Frontend

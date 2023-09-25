@@ -1,1 +1,1 @@
-# frontend part `fena-mail-sender`
+# frontend part `email-sender-ui`

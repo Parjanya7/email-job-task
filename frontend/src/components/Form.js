@@ -1,22 +1,21 @@
-import { TextField, IconButton } from '@mui/material';
-import SendIcon from '@mui/icons-material/Send';
+import { TextField, Button } from '@mui/material';
 
 export const Form = ({ handleChange, handleSubmit, input, isCorrectInput }) => {
   return (
     <form className="amount-form" autoComplete="off" onSubmit={handleSubmit}>
       <TextField
         error={!isCorrectInput}
-        fullWidth
         name="amount"
-        label="Amount of letters"
-        variant="standard"
-        helperText="Insert Number of Emails"
+        color="success"
+        size="medium"
+        label="Number of Emails to be sent"
         value={input}
         onChange={handleChange}
+        style={{ marginBottom: "10px" }}
       />
-      <IconButton size="large" type="submit" disabled={!isCorrectInput}>
-        <SendIcon fontSize="large" />
-      </IconButton>
+      <Button type="submit" disabled={!isCorrectInput} color="info" variant="contained" size="small" style={{ width: "200px" }}>
+        Trigger
+      </Button>
     </form>
   );
 };

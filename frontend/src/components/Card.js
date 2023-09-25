@@ -25,7 +25,7 @@ export const Card = ({ mail }) => {
           alignItems="center"
           className={classes.body}>
           <Grid item xs={12}>
-            <Typography>№ {mail?.jobId}</Typography>
+            <Typography>JobId: {mail?.jobId}</Typography>
           </Grid>
           <Grid item xs={3}>
             <Typography>{mail?.timePassed}</Typography>

@@ -1,2 +1,1 @@
-# email-servie `fena-mail-sender` 
-Imitate email sending
+# email-servie to handle jobs to trigger emails
