@@ -1,0 +1,10 @@
+Dockerfile*
+.dockerignore
+.git
+.gitignore
+.vscode
+**/node_modules
+**/dist
+**/build
+**/.DS_Store
+*.md
